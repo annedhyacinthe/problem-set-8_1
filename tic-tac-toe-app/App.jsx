@@ -1,5 +1,5 @@
 const App = () => {
-	return <div>A tic-tac-toe game</div>;
+	return <Board />;
 };
 
 ReactDOM.render(<App />, document.querySelector('.container'));
